@@ -5,9 +5,6 @@ import "./styles.css";
 function App() {
 
   const [repositories, setRepositores] = useState([]);
-  const [title, setTitle] = useState('');
-  const [url, setUrl] = useState('');
-  const [techs, setTech ] = useState([]);
 
   useEffect(() => {
     async function getDatas(){
